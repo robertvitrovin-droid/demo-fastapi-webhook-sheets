@@ -1,0 +1,4 @@
+event_id,type,created_at,customer_name,customer_email,phone,items,total,comment
+evt_demo_0001,order.created,2026-10-09T18:05:00+03:00,Демо Покупець 1,buyer1@example.com,+380000000001,CAKE-NAPOLEON×1,520.00,
+evt_demo_0002,form.submitted,2026-10-09T18:07:00+03:00,Демо Клієнт 2,lead2@example.com,,,0.00,Прошу передзвонити щодо замовлення на свято
+evt_demo_0003,order.paid,2026-10-09T18:10:00+03:00,Демо Покупець 3,buyer3@example.com,,CROISSANT×6; COFFEE-BEANS×1,660.00,

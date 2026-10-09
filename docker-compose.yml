@@ -1,0 +1,10 @@
+services:
+  webhook:
+    build: .
+    ports: ["8000:8000"]
+    env_file: .env
+    volumes:
+      - ./data:/srv/data
+      # for SHEETS_WRITER=gspread mount the service-account key read-only:
+      # - ./service_account.json:/srv/service_account.json:ro
+    restart: unless-stopped

@@ -1,0 +1,5 @@
+evt_demo_0001 202 {'status': 'accepted', 'event_id': 'evt_demo_0001', 'attempts': 1}
+evt_demo_0002 202 {'status': 'accepted', 'event_id': 'evt_demo_0002', 'attempts': 1}
+evt_demo_0003 202 {'status': 'accepted', 'event_id': 'evt_demo_0003', 'attempts': 1}
+duplicate      202 {'status': 'duplicate', 'event_id': 'evt_demo_0001', 'previous': 'done'}
+bad signature  401 {'detail': 'invalid signature'}
